@@ -10,6 +10,7 @@
   --hue-color: 224;
   --first-color: hsl(var(--hue-color), 89%, 60%);
   --second-color: hsl(var(--hue-color), 56%, 12%);
+  --special-color: hsla(18, 100%, 50%, 1);
   /*===== Fuente y tipografia =====*/
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
@@ -220,7 +221,7 @@ img {
 }
 
 .home__social-icon:hover {
-  color:hsla(18, 100%, 50%, 1);
+  color: var(--special-color);
 }
 
 .home__img {
@@ -301,7 +302,7 @@ img {
 .skills__icon {
   font-size: 2rem;
   margin-right: var(--mb-2);
-  color: hsla(18, 100%, 50%, 1);
+  color: var(--special-color);
 }
 
 .skills__names {
