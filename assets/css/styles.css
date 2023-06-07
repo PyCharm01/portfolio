@@ -220,7 +220,7 @@ img {
 }
 
 .home__social-icon:hover {
-  color: var(--first-color);
+  color:hsla(18, 100%, 50%, 1);
 }
 
 .home__img {
@@ -301,7 +301,7 @@ img {
 .skills__icon {
   font-size: 2rem;
   margin-right: var(--mb-2);
-  color: var(--first-color);
+  color: hsla(18, 100%, 50%, 1);
 }
 
 .skills__names {
