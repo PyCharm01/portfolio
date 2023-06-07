@@ -347,7 +347,7 @@ img {
 
 /* ===== WORK =====*/
 .work__container {
-  row-gap: 2rem;
+  row-gap: 4rem;
 }
 
 .work__img {
@@ -453,8 +453,8 @@ img {
   }
   .work__container {
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 2rem;
-    padding-top: 2rem;
+    column-gap: 4rem;
+    padding-top: 4rem;
   }
   .contact__form {
     width: 360px;
@@ -518,7 +518,7 @@ img {
   }
   .work__container {
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 2rem;
+    column-gap: 4rem;
   }
 }
 
