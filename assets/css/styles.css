@@ -9,6 +9,7 @@
   /* HSL color mode */
   --hue-color: 224;
   --first-color: hsl(var(--hue-color), 89%, 60%);
+  --new-special: hsl(0,100%,51%);
   --second-color: hsl(var(--hue-color), 56%, 12%);
   --special-color: hsla(18, 100%, 50%, 1);
   /*===== Fuente y tipografia =====*/
@@ -206,6 +207,10 @@ img {
 
 .home__title-color {
   color: var(--first-color);
+}
+
+.home__title-new_color {
+  color: var(--new-special);
 }
 
 .home__social {
