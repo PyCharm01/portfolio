@@ -325,8 +325,8 @@ img {
   z-index: var(--z-back);
 }
 
-.skills__django {
-  width: 80%;
+.skills__ml {
+  width: 85%;
 }
 .skills__aws {
   width: 80%;
@@ -334,16 +334,20 @@ img {
 .skills__python {
   width: 99%;
 }
-.skills__html {
-  width: 85%;
-}
-
-.skills__css {
-  width: 85%;
-}
-
-.skills__js {
+.skills__dl {
   width: 80%;
+}
+
+.skills__pt {
+  width: 80%;
+}
+
+.skills__docker {
+  width: 80%;
+}
+
+.skills__git {
+  width: 90%;
 }
 
 .skills__img {
